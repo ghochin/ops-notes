@@ -84,22 +84,4 @@ git remote set-url origin git@github.com:用户名/仓库.git
 4. **Permission denied**：浏览器登录的是另一个 GitHub 账号，退出换正确的。
 5. **SSH 首次连接问 yes/no**：和 SSH 连服务器一样，第一次要确认指纹。
 
-## 七、工作流总结
 
-```
-本地改代码 → git add → git commit → git push
-                                    ↑
-                              这就是你今天学会的
-```
-
-以后和别人协作再加一步：
-```
-git pull（先拉别人的更新）→ 改代码 → git add → git commit → git push
-```
-
-## 八、你的 GitHub 仓库
-
-- 地址：https://github.com/ghochin/git-demo
-- 包含：README.md、about.txt（被你 echosh 乱了的）
-
-建议把 `D:\36\ai create\` 下的运维笔记也用 Git 管起来推到 GitHub，面试官看到你的学习记录会很加分。
