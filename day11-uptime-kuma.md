@@ -33,12 +33,4 @@ http://8.163.121.232:3002
 - http://8.163.121.232（HTML 页面）
 - http://8.163.121.232:8080（WordPress）
 
-## 简历描述（加上这个项目后）
-> 使用 Docker 部署 Uptime Kuma 服务监控平台，实现对 Nginx 静态站点和 WordPress 应用的实时可用性监控与告警通知。
 
-## 当前项目清单
-1. 云服务器全栈部署（Nginx + Docker + MySQL + WordPress）
-2. Docker Compose 多容器编排
-3. Shell 自动备份脚本 + Cron
-4. Uptime Kuma 服务监控
-5. 故障排查演练
