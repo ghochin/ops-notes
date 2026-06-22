@@ -20,9 +20,4 @@
 - DNS 同步延迟中（当日注册，次日生效）
 - 等待生效后验证：`nslookup yoorchin.xyz`
 
-## 明天要做
-1. 验证 DNS 生效：`nslookup yoorchin.xyz` 或 `ping yoorchin.xyz`
-2. 连服务器配置 Nginx 反向代理：
-   - `yoorchin.xyz` → 显示你的 HTML 页面（/var/www/html/）
-   - `blog.yoorchin.xyz` → 代理到 WordPress（localhost:8080）
-3. 配 Let's Encrypt 免费 SSL 证书
+
